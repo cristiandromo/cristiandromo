@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" role="img" aria-label="Terminal animada">
+  <defs>
+    <linearGradient id="term-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161B22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="632" height="332" rx="14" fill="url(#term-bg)" stroke="#30363D" stroke-width="2"/>
+  <rect x="4" y="4" width="632" height="36" rx="14" fill="#21262D"/>
+  <rect x="4" y="24" width="632" height="16" fill="#21262D"/>
+  <circle cx="26" cy="22" r="6" fill="#FF5F56"/>
+  <circle cx="48" cy="22" r="6" fill="#FFBD2E"/>
+  <circle cx="70" cy="22" r="6" fill="#27C93F"/>
+  <text x="120" y="27" font-family="'Fira Code','Courier New',monospace" font-size="13" fill="#8B949E">cristian@dev: ~</text>
+
+  <g font-family="'Fira Code','Courier New',monospace" font-size="15">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.06;0.10;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="76" fill="#7FE7FF">$ whoami</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.17;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="106" fill="#FFCB05">cristian -- full stack developer</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.20;0.24;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="136" fill="#7FE7FF">$ stack --list</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.27;0.31;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="166" fill="#C9D1D9">react  node  python  java  docker  aws</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.38;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="196" fill="#7FE7FF">$ status</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.41;0.45;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <text x="24" y="226" fill="#27C93F">disponible para nuevas oportunidades</text>
+    </g>
+  </g>
+
+  <rect x="350" y="210" width="9" height="16" fill="#FFCB05">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

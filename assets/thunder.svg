@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="divisor respiracion del trueno">
+  <defs>
+    <linearGradient id="t-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFF45C"/>
+      <stop offset="0.5" stop-color="#FFCB05"/>
+      <stop offset="1" stop-color="#FF8A00"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#t-grad)" stroke-linejoin="round" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.35;1;0.5;1;0.6;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+    <path d="M0 20 L60 8 L120 30 L180 10 L240 28 L300 8 L360 30 L420 10 L480 28 L540 8 L600 30 L660 10 L720 28 L780 8 L840 30 L900 10 L960 28 L1020 8 L1080 30 L1140 10 L1200 20" stroke-width="6" opacity="0.25"/>
+    <path d="M0 20 L60 8 L120 30 L180 10 L240 28 L300 8 L360 30 L420 10 L480 28 L540 8 L600 30 L660 10 L720 28 L780 8 L840 30 L900 10 L960 28 L1020 8 L1080 30 L1140 10 L1200 20" stroke-width="2.5"/>
+  </g>
+</svg>

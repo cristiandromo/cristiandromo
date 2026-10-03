@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" width="220" height="260" role="img" aria-label="Aretes hanafuda de Tanjiro">
+  <defs>
+    <radialGradient id="ear-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFCB05" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FF3D00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="110" cy="120" rx="105" ry="120" fill="url(#ear-glow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- barra de la que cuelgan -->
+  <rect x="68" y="12" width="84" height="8" rx="4" fill="#1A1A1A" stroke="#FFCB05" stroke-width="2"/>
+
+  <!-- arete izquierdo -->
+  <g transform="translate(80 22)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-12 0 0;12 0 0;-12 0 0" dur="3s" repeatCount="indefinite"/>
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#FFCB05" stroke-width="2"/>
+      <rect x="-24" y="50" width="48" height="72" rx="6" fill="#FFF7E6" stroke="#1A1A1A" stroke-width="2"/>
+      <circle cx="0" cy="86" r="14" fill="#EE1515"/>
+      <g fill="#EE1515">
+        <polygon points="0,56 5,72 -5,72" transform="rotate(0 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(45 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(90 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(135 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(180 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(225 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(270 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(315 0 86)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- arete derecho -->
+  <g transform="translate(140 22)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="12 0 0;-12 0 0;12 0 0" dur="3s" repeatCount="indefinite"/>
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#FFCB05" stroke-width="2"/>
+      <rect x="-24" y="50" width="48" height="72" rx="6" fill="#FFF7E6" stroke="#1A1A1A" stroke-width="2"/>
+      <circle cx="0" cy="86" r="14" fill="#EE1515"/>
+      <g fill="#EE1515">
+        <polygon points="0,56 5,72 -5,72" transform="rotate(0 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(45 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(90 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(135 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(180 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(225 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(270 0 86)"/>
+        <polygon points="0,56 5,72 -5,72" transform="rotate(315 0 86)"/>
+      </g>
+    </g>
+  </g>
+</svg>

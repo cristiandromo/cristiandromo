@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Banner Cristian D Romo">
+  <defs>
+    <linearGradient id="b-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.5" stop-color="#161B22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="b-txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF3D00"/>
+      <stop offset="0.4" stop-color="#FFCB05"/>
+      <stop offset="0.7" stop-color="#FFF45C"/>
+      <stop offset="1" stop-color="#FF8A00"/>
+    </linearGradient>
+    <linearGradient id="b-flame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF3D00"/>
+      <stop offset="0.5" stop-color="#FF8A00"/>
+      <stop offset="1" stop-color="#FFCB05"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="236" rx="18" fill="url(#b-bg)" stroke="#FFCB05" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- llamas inferiores -->
+  <g opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-120 0" dur="6s" repeatCount="indefinite"/>
+    <path d="M-120 238 L-120 224 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 q30 -12 60 -3 q30 -10 60 -1 L1320 238 Z" fill="url(#b-flame)" opacity="0.55"/>
+  </g>
+  <g opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" from="0 -4" to="-120 -4" dur="4s" repeatCount="indefinite"/>
+    <path d="M-120 238 L-120 230 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 L1320 238 Z" fill="url(#b-flame)"/>
+  </g>
+
+  <text x="600" y="100" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="72" font-weight="800" fill="url(#b-txt)">CRISTIAN D ROMO
+    <animate attributeName="opacity" values="1;0.82;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="600" y="142" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#E6EDF3">Full Stack Developer</text>
+
+  <text x="600" y="172" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#8B949E">Backend · Cloud · UI/UX de alto impacto</text>
+
+  <g stroke="#FFCB05" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    <line x1="380" y1="194" x2="470" y2="194"/>
+    <line x1="730" y1="194" x2="820" y2="194"/>
+  </g>
+</svg>

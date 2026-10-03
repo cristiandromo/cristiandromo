@@ -1,13 +1,16 @@
 <!--
   ============================================================================
   README DE PERFIL GITHUB - Cristian Dromo
-  Estilo: Pokemon + Respiracion Solar (EE1515 / FFCB05 / 3B4CCA sobre 0D1117)
+  Estilo: Pokemon + Kimetsu no Yaiba (Respiracion Solar) sobre 0D1117
   ----------------------------------------------------------------------------
   CONFIGURACION RAPIDA
   1) Busca los bloques "EDITA AQUI" y cambia tus datos reales (portafolio, X,
      proyectos, etc.).
-  2) Animaciones propias en /assets: pikachu.svg, pokeball.svg, sun.svg,
-     divider.svg y marquee.svg. Se usan con rutas relativas, ya funcionan.
+  2) SVGs animados propios en /assets:
+       banner.svg, pikachu.svg, pokeball.svg, sun.svg, earrings.svg,
+       nichirin.svg, terminal.svg, avatar-frame.svg, embers.svg,
+       divider.svg (solar), water.svg, thunder.svg, marquee.svg
+     Todos se usan con rutas relativas, ya funcionan.
   3) La serpiente de contribuciones ya esta activa (rama "output"). Su workflow
      vive en .github/workflows/snake.yml.
   4) Trofeos y grafico de actividad usan servidores publicos gratuitos. Si se
@@ -17,7 +20,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EE1515,50:FFCB05,100:3B4CCA&height=220&section=header&text=Cristian%20Dromo&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Backend%20%26%20Cloud&descSize=20&descAlignY=58&animation=twinkling" />
+<img width="100%" src="assets/banner.svg" alt="Cristian Dromo" />
 
 <img src="assets/pikachu.svg" width="150" alt="Pikachu" />
 
@@ -48,8 +51,11 @@
 
 </div>
 
-<!-- Divisor animado propio -->
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<!-- Brasas flotando -->
+<img width="100%" src="assets/embers.svg" alt="brasas" />
+
+<!-- Divisor Respiración de Agua -->
+<img width="100%" src="assets/water.svg" alt="divisor" />
 
 ## Sobre mí
 
@@ -75,12 +81,10 @@ const cristian: Developer = {
 ```
 
 </td>
-<td width="45%" valign="top">
+<td width="45%" valign="top" align="center">
 
-> Convierto ideas en productos funcionales: código mantenible, buenas prácticas
-> y experiencias memorables.
->
-> Me mueve resolver problemas complejos con soluciones simples y escalables.
+<!-- Marco de avatar animado (reemplaza la silueta por tu foto si quieres) -->
+<img src="assets/avatar-frame.svg" width="110" alt="Marco de avatar" />
 
 <!-- Segunda linea animada (typing) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1200&color=EE1515&vCenter=true&width=420&height=40&lines=Actualmente%3A+construyendo+APIs+escalables;Aprendiendo%3A+Kubernetes+%26+Cloud+Native;Abierto+a+nuevas+oportunidades" alt="Estado actual" />
@@ -95,6 +99,11 @@ const cristian: Developer = {
 </td>
 </tr>
 </table>
+
+<!-- Terminal animada -->
+<div align="center">
+  <img src="assets/terminal.svg" width="520" alt="Terminal animada" />
+</div>
 
 <img width="100%" src="assets/divider.svg" alt="divisor" />
 
@@ -122,7 +131,8 @@ const cristian: Developer = {
 
 </div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<!-- Divisor Respiración del Trueno -->
+<img width="100%" src="assets/thunder.svg" alt="divisor" />
 
 ## Estadísticas de GitHub
 
@@ -144,7 +154,7 @@ const cristian: Developer = {
 
 </div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<img width="100%" src="assets/water.svg" alt="divisor" />
 
 ## Trofeos
 
@@ -172,7 +182,7 @@ const cristian: Developer = {
   </picture>
 </div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<img width="100%" src="assets/water.svg" alt="divisor" />
 
 <!-- EDITA AQUI: reemplaza "proyecto-1" ... por los nombres reales de tus repos
      (solo el nombre, sin tu usuario). Duplica o borra bloques <a> segun quieras. -->
@@ -180,7 +190,9 @@ const cristian: Developer = {
 
 <div align="center">
 
-<img src="assets/pokeball.svg" width="80" alt="Pokeball" />
+<img src="assets/pokeball.svg" width="72" alt="Pokeball" />
+&nbsp;&nbsp;&nbsp;
+<img src="assets/nichirin.svg" width="300" alt="Espada Nichirin" />
 
 <br/>
 
@@ -199,7 +211,7 @@ const cristian: Developer = {
 
 </div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<img width="100%" src="assets/thunder.svg" alt="divisor" />
 
 ## Frase del día
 
@@ -207,18 +219,20 @@ const cristian: Developer = {
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
+<img width="100%" src="assets/water.svg" alt="divisor" />
 
 <!-- EDITA AQUI: tus enlaces definitivos de contacto -->
 ## Conecta conmigo
 
 <div align="center">
 
+<img src="assets/earrings.svg" width="120" alt="Aretes hanafuda" />
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/sun.svg" width="120" alt="Sol de respiracion solar" />
 
 <br/>
 
-*Décima forma: Respiración Solar, Hinokami Kagura. Modo enfoque activado.*
+*Respiración Solar, Hinokami Kagura. Modo enfoque activado.*
 
 <br/>
 
@@ -241,4 +255,11 @@ const cristian: Developer = {
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3B4CCA,50:FFCB05,100:EE1515&height=140&section=footer&text=Gracias%20por%20pasar&fontSize=24&fontColor=ffffff&fontAlignY=72" />
+<!-- Brasas + cierre -->
+<img width="100%" src="assets/embers.svg" alt="brasas" />
+
+<div align="center">
+  <strong>Gracias por pasar</strong>
+</div>
+
+<img width="100%" src="assets/divider.svg" alt="divisor" />
