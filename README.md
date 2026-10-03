@@ -1,33 +1,13 @@
-<!--
-  ============================================================================
-  README DE PERFIL GITHUB - Cristian Dromo
-  Estilo: Pokemon + Kimetsu no Yaiba (Respiracion Solar) sobre 0D1117
-  ----------------------------------------------------------------------------
-  CONFIGURACION RAPIDA
-  1) Busca los bloques "EDITA AQUI" y cambia tus datos reales (portafolio, X,
-     proyectos, etc.).
-  2) SVGs animados propios en /assets:
-       banner.svg, pikachu.svg, pokeball.svg, sun.svg, earrings.svg,
-       nichirin.svg, terminal.svg, avatar-frame.svg, embers.svg,
-       divider.svg (solar), water.svg, thunder.svg, marquee.svg
-     Todos se usan con rutas relativas, ya funcionan.
-  3) La serpiente de contribuciones ya esta activa (rama "output"). Su workflow
-     vive en .github/workflows/snake.yml.
-  4) Trofeos y grafico de actividad usan servidores publicos gratuitos. Si se
-     caen, en sus comentarios hay mirrors y como auto-hospedarlos.
-  ============================================================================
--->
-
 <div align="center">
 
-<img width="100%" src="assets/banner.svg" alt="Cristian Dromo" />
+<img width="100%" src="assets/banner.svg" alt="Cristian D Romo" />
 
-<img src="assets/pikachu.svg" width="150" alt="Pikachu" />
+<img src="assets/earrings.svg" width="150" alt="hami" />
 
 <br/>
 
 <a href="https://github.com/cristiandromo">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=900&color=FFCB05&center=true&vCenter=true&width=820&height=60&lines=Full+Stack+Developer;Frontend+%2B+Backend+Architect;APIs+escalables+y+UI+de+alto+impacto;Atrapando+bugs+como+si+fueran+Pokemon" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=900&color=FFCB05&center=true&vCenter=true&width=820&height=60&lines=Full+Stack+Developer;Frontend+%2B+Backend+Architect;APIs+escalables" alt="Typing SVG" />
 </a>
 
 <!-- EDITA AQUI: tus redes sociales -->
@@ -38,21 +18,24 @@
   <a href="mailto:cristianromo07@gmail.com">
     <img src="https://img.shields.io/badge/Email-EE1515?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://tu-portafolio.com" target="_blank">
+  <a href="https://github.com/cristiandromo?tab=repositories" target="_blank">
     <img src="https://img.shields.io/badge/Portafolio-FFCB05?style=for-the-badge&logo=vercel&logoColor=black" />
   </a>
   <a href="https://x.com/tu-usuario" target="_blank">
     <img src="https://img.shields.io/badge/X-1A1A1A?style=for-the-badge&logo=x&logoColor=white" />
   </a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=cristiandromo&label=VISITAS&color=EE1515&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/cristiandromo?label=SEGUIDORES&style=for-the-badge&color=FFCB05&labelColor=0D1117" />
-
+    </p>
 </div>
 
 <!-- Brasas flotando -->
 <img width="100%" src="assets/embers.svg" alt="brasas" />
+
+<!-- Terminal animada -->
+<div align="center">
+  <img src="assets/terminal.svg" width="520" alt="Terminal animada" />
+</div>
+
+<img width="100%" src="assets/divider.svg" alt="divisor" />
 
 <!-- Divisor Respiración de Agua -->
 <img width="100%" src="assets/water.svg" alt="divisor" />
@@ -66,8 +49,8 @@
 ```typescript
 const cristian: Developer = {
   rol: "Full Stack Developer",
-  ubicacion: "Remoto / Abierto a relocalización",
-  enfoque: ["APIs escalables", "Arquitectura limpia", "UI/UX de alto impacto"],
+  ubicacion: "Medellin - Remoto / Abierto a relocalización",
+  enfoque: ["APIs escalables", "Arquitectura limpia"],
   stack: {
     frontend: ["React", "TypeScript", "Next.js", "Tailwind"],
     backend: ["Node.js", "Python", "Java", "Spring Boot"],
@@ -83,15 +66,15 @@ const cristian: Developer = {
 </td>
 <td width="45%" valign="top" align="center">
 
-<!-- Marco de avatar animado (reemplaza la silueta por tu foto si quieres) -->
-<img src="assets/avatar-frame.svg" width="110" alt="Marco de avatar" />
+
+<img src="assets/foto_cv_1mb.jpg" width="110" alt="Marco de avatar" />
 
 <!-- Segunda linea animada (typing) -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1200&color=EE1515&vCenter=true&width=420&height=40&lines=Actualmente%3A+construyendo+APIs+escalables;Aprendiendo%3A+Kubernetes+%26+Cloud+Native;Abierto+a+nuevas+oportunidades" alt="Estado actual" />
 
 **Datos rápidos**
 
-- Trabajando en: `proyecto-secreto` <!-- EDITA: tu proyecto actual -->
+- Trabajando en: `Open projects`
 - Aprendiendo: **Kubernetes y Cloud Native**
 - Pregúntame sobre: `React`, `Node`, `APIs`, `Bases de datos`
 - Idiomas: **Español / Inglés**
@@ -100,18 +83,12 @@ const cristian: Developer = {
 </tr>
 </table>
 
-<!-- Terminal animada -->
-<div align="center">
-  <img src="assets/terminal.svg" width="520" alt="Terminal animada" />
-</div>
 
-<img width="100%" src="assets/divider.svg" alt="divisor" />
 
 ## Stack y tecnologías
 
 <div align="center">
 
-<!-- EDITA: agrega o quita iconos según https://skillicons.dev -->
 <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,express,nestjs,python,django,fastapi,java,spring,postgres,mysql,mongodb,redis,docker,kubernetes,aws,git,github,linux,nginx&theme=dark&perline=12" />
 
 <br/>
@@ -121,18 +98,8 @@ const cristian: Developer = {
 
 <br/>
 
-<!-- EDITA: ajusta los bloques a tu nivel real -->
-| Área | Nivel |
-| :--- | :--- |
-| Frontend | `################....` 80% |
-| Backend | `##################..` 90% |
-| Bases de datos | `###############.....` 75% |
-| DevOps / Cloud | `############........` 60% |
 
 </div>
-
-<!-- Divisor Respiración del Trueno -->
-<img width="100%" src="assets/thunder.svg" alt="divisor" />
 
 ## Estadísticas de GitHub
 
@@ -147,9 +114,6 @@ const cristian: Developer = {
 
 <br/>
 
-<!-- GRAFICO DE ACTIVIDAD: servidor publico alternativo (el oficial esta saturado).
-     Si se cae, cambia el dominio por un mirror de la comunidad o auto-hospedalo
-     gratis en Vercel (1 clic): https://github.com/Ashutosh00710/github-readme-activity-graph -->
 <img width="100%" src="https://fabianocouto-activity-graph.vercel.app/graph?username=cristiandromo&bg_color=0D1117&color=FFCB05&line=EE1515&point=3B4CCA&area=true&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
 
 </div>
@@ -171,7 +135,7 @@ const cristian: Developer = {
 
 <!-- [SNAKE] Serpiente de contribuciones (ya activa, rama "output").
      Workflow: .github/workflows/snake.yml
-     Si no la quieres, borra este bloque completo. -->
+     . -->
 ## Contribuciones
 
 <div align="center">
@@ -186,30 +150,7 @@ const cristian: Developer = {
 
 <!-- EDITA AQUI: reemplaza "proyecto-1" ... por los nombres reales de tus repos
      (solo el nombre, sin tu usuario). Duplica o borra bloques <a> segun quieras. -->
-## Proyectos destacados
 
-<div align="center">
-
-<img src="assets/pokeball.svg" width="72" alt="Pokeball" />
-&nbsp;&nbsp;&nbsp;
-<img src="assets/nichirin.svg" width="300" alt="Espada Nichirin" />
-
-<br/>
-
-<a href="https://github.com/cristiandromo/proyecto-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cristiandromo&repo=proyecto-1&hide_border=true&bg_color=0D1117&title_color=FFCB05&icon_color=EE1515&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/cristiandromo/proyecto-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cristiandromo&repo=proyecto-2&hide_border=true&bg_color=0D1117&title_color=FFCB05&icon_color=EE1515&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/cristiandromo/proyecto-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cristiandromo&repo=proyecto-3&hide_border=true&bg_color=0D1117&title_color=FFCB05&icon_color=EE1515&text_color=c9d1d9" />
-</a>
-<a href="https://github.com/cristiandromo/proyecto-4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cristiandromo&repo=proyecto-4&hide_border=true&bg_color=0D1117&title_color=FFCB05&icon_color=EE1515&text_color=c9d1d9" />
-</a>
-
-</div>
 
 <img width="100%" src="assets/thunder.svg" alt="divisor" />
 
@@ -221,39 +162,7 @@ const cristian: Developer = {
 
 <img width="100%" src="assets/water.svg" alt="divisor" />
 
-<!-- EDITA AQUI: tus enlaces definitivos de contacto -->
-## Conecta conmigo
 
-<div align="center">
-
-<img src="assets/earrings.svg" width="120" alt="Aretes hanafuda" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/sun.svg" width="120" alt="Sol de respiracion solar" />
-
-<br/>
-
-*Respiración Solar, Hinokami Kagura. Modo enfoque activado.*
-
-<br/>
-
-<a href="https://linkedin.com/in/cristian-romo-980300262" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Conectemos-3B4CCA?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:cristianromo07@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Escr%C3%ADbeme-EE1515?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://tu-portafolio.com" target="_blank">
-  <img src="https://img.shields.io/badge/Portafolio-Visitar-FFCB05?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
-<a href="https://wa.me/+573195707508">
-  <img src="https://img.shields.io/badge/WhatsApp-Escr%C3%ADbeme-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</a>
-
-<br/><br/>
-
-> Si algún proyecto te sirvió, déjame una estrella. Se agradece.
-
-</div>
 
 <!-- Brasas + cierre -->
 <img width="100%" src="assets/embers.svg" alt="brasas" />

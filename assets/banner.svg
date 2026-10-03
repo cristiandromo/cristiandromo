@@ -30,13 +30,13 @@
     <path d="M-120 238 L-120 230 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 q30 -9 60 -2 q30 -8 60 -1 L1320 238 Z" fill="url(#b-flame)"/>
   </g>
 
-  <text x="600" y="100" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="72" font-weight="800" fill="url(#b-txt)">CRISTIAN D ROMO
+  <text x="600" y="100" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="72" font-weight="800" fill="url(#b-txt)">CRISTIAN D. ROMO
     <animate attributeName="opacity" values="1;0.82;1" dur="3s" repeatCount="indefinite"/>
   </text>
 
   <text x="600" y="142" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="#E6EDF3">Full Stack Developer</text>
 
-  <text x="600" y="172" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#8B949E">Backend · Cloud · UI/UX de alto impacto</text>
+  <text x="600" y="172" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#8B949E">Backend · Cloud · Data Base Administrator</text>
 
   <g stroke="#FFCB05" stroke-width="3" stroke-linecap="round">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
