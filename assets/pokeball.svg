@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Pokeball animada">
+  <defs>
+    <clipPath id="ball-clip"><circle cx="100" cy="100" r="88"/></clipPath>
+    <radialGradient id="ball-aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFCB05" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FFCB05" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="100" cy="100" rx="98" ry="98" fill="url(#ball-aura)">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0 100 100; -16 100 100; 16 100 100; -12 100 100; 12 100 100; 0 100 100" keyTimes="0;0.15;0.3;0.45;0.6;0.85" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="100" cy="100" r="88" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="6"/>
+    <path d="M12 100 A88 88 0 0 1 188 100 Z" fill="#EE1515"/>
+    <rect x="12" y="92" width="176" height="16" fill="#1A1A1A" clip-path="url(#ball-clip)"/>
+    <circle cx="100" cy="100" r="24" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="6"/>
+    <circle cx="100" cy="100" r="10" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="4"/>
+    <circle cx="70" cy="60" r="14" fill="#FFFFFF" opacity="0.35"/>
+  </g>
+</svg>

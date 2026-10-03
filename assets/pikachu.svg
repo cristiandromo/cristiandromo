@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Pikachu animado">
+  <defs>
+    <radialGradient id="cheek" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A7A"/>
+      <stop offset="1" stop-color="#EE1515"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFCB05" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFCB05" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="120" rx="118" ry="112" fill="url(#aura)">
+    <animate attributeName="opacity" values="0.45;0.9;0.45" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="2.6s" repeatCount="indefinite"/>
+
+    <!-- cola (detras) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 168 158; 8 168 158; -6 168 158; 0 168 158" keyTimes="0;0.3;0.6;1" dur="1.8s" repeatCount="indefinite"/>
+      <path d="M164 156 L208 128 L198 156 L232 140 L188 198 L192 166 Z" fill="#FFCB05" stroke="#D9A800" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M164 156 L180 168 L172 180 L156 170 Z" fill="#E8A100"/>
+    </g>
+
+    <!-- patas -->
+    <ellipse cx="96" cy="198" rx="20" ry="15" fill="#FFCB05"/>
+    <ellipse cx="144" cy="198" rx="20" ry="15" fill="#FFCB05"/>
+
+    <!-- cuerpo -->
+    <ellipse cx="120" cy="152" rx="58" ry="52" fill="#FFCB05"/>
+
+    <!-- brazos -->
+    <ellipse cx="66" cy="150" rx="16" ry="26" fill="#FFCB05" transform="rotate(-18 66 150)"/>
+    <ellipse cx="174" cy="150" rx="16" ry="26" fill="#FFCB05" transform="rotate(18 174 150)"/>
+
+    <!-- orejas -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 100 62; -7 100 62; 0 100 62" keyTimes="0;0.5;1" dur="2.2s" repeatCount="indefinite"/>
+      <polygon points="90,62 114,66 60,4" fill="#FFCB05"/>
+      <polygon points="60,4 69,21 76,23" fill="#262626"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 140 62; 7 140 62; 0 140 62" keyTimes="0;0.5;1" dur="2.2s" repeatCount="indefinite"/>
+      <polygon points="150,62 126,66 180,4" fill="#FFCB05"/>
+      <polygon points="180,4 171,21 164,23" fill="#262626"/>
+    </g>
+
+    <!-- cabeza -->
+    <ellipse cx="120" cy="92" rx="64" ry="58" fill="#FFCB05"/>
+
+    <!-- mejillas -->
+    <circle cx="70" cy="116" r="14" fill="url(#cheek)">
+      <animate attributeName="r" values="14;15.5;14" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="116" r="14" fill="url(#cheek)">
+      <animate attributeName="r" values="14;15.5;14" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ojos -->
+    <ellipse cx="98" cy="90" rx="9" ry="9" fill="#1A1A1A">
+      <animate attributeName="ry" values="9;9;1;9;9" keyTimes="0;0.9;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="142" cy="90" rx="9" ry="9" fill="#1A1A1A">
+      <animate attributeName="ry" values="9;9;1;9;9" keyTimes="0;0.9;0.93;0.96;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="95" cy="87" r="3" fill="#FFFFFF"/>
+    <circle cx="139" cy="87" r="3" fill="#FFFFFF"/>
+
+    <!-- nariz y boca -->
+    <ellipse cx="120" cy="104" rx="4" ry="3" fill="#3A2A00"/>
+    <path d="M108 114 Q120 126 132 114" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
