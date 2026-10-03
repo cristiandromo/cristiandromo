@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Sol de respiracion solar">
+  <defs>
+    <radialGradient id="sun-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFCB05" stop-opacity="0.65"/>
+      <stop offset="0.6" stop-color="#FF6A00" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#FF3D00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun-disc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF7B0"/>
+      <stop offset="0.45" stop-color="#FFCB05"/>
+      <stop offset="0.8" stop-color="#FF8A00"/>
+      <stop offset="1" stop-color="#FF3D00"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="url(#sun-glow)">
+    <animate attributeName="opacity" values="0.45;0.95;0.45" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- rayos exteriores girando -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="18s" repeatCount="indefinite"/>
+    <g opacity="0.9">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="1.6s" repeatCount="indefinite"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(30 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00" transform="rotate(60 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(90 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00" transform="rotate(120 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(150 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00" transform="rotate(180 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(210 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00" transform="rotate(240 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(270 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF6A00" transform="rotate(300 100 100)"/>
+      <polygon points="100,2 111,74 89,74" fill="#FF8A00" transform="rotate(330 100 100)"/>
+    </g>
+  </g>
+
+  <!-- rayos interiores girando al reves -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="12s" repeatCount="indefinite"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(15 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(45 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(75 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(105 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(135 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(165 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(195 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(225 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(255 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(285 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFCB05" transform="rotate(315 100 100)"/>
+    <polygon points="100,44 106,78 94,78" fill="#FFE45C" transform="rotate(345 100 100)"/>
+  </g>
+
+  <!-- disco central -->
+  <circle cx="100" cy="100" r="52" fill="url(#sun-disc)">
+    <animate attributeName="r" values="52;54;52" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="34" fill="#FFF7B0" opacity="0.75">
+    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

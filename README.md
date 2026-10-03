@@ -1,13 +1,13 @@
 <!--
   ============================================================================
   README DE PERFIL GITHUB - Cristian Dromo
-  Estilo: Pokemon / Pikachu  (EE1515 / FFCB05 / 3B4CCA sobre 0D1117)
+  Estilo: Pokemon + Respiracion Solar (EE1515 / FFCB05 / 3B4CCA sobre 0D1117)
   ----------------------------------------------------------------------------
   CONFIGURACION RAPIDA
   1) Busca los bloques "EDITA AQUI" y cambia tus datos reales (portafolio, X,
      proyectos, etc.).
-  2) Animaciones propias en /assets: pikachu.svg, pokeball.svg, divider.svg y
-     marquee.svg. Se usan con rutas relativas, ya funcionan.
+  2) Animaciones propias en /assets: pikachu.svg, pokeball.svg, sun.svg,
+     divider.svg y marquee.svg. Se usan con rutas relativas, ya funcionan.
   3) La serpiente de contribuciones ya esta activa (rama "output"). Su workflow
      vive en .github/workflows/snake.yml.
   4) Trofeos y grafico de actividad usan servidores publicos gratuitos. Si se
@@ -213,6 +213,14 @@ const cristian: Developer = {
 ## Conecta conmigo
 
 <div align="center">
+
+<img src="assets/sun.svg" width="120" alt="Sol de respiracion solar" />
+
+<br/>
+
+*Décima forma: Respiración Solar, Hinokami Kagura. Modo enfoque activado.*
+
+<br/>
 
 <a href="https://linkedin.com/in/cristian-romo-980300262" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Conectemos-3B4CCA?style=for-the-badge&logo=linkedin&logoColor=white" />
